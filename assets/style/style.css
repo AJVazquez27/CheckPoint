@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner{
+    min-height: 25vh;
+    background-image: url(../images/lentes-3d.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: aliceblue;
+}
+
+main{
+    background-color: black;
+}
+
+.nav-principal{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.logo{
+    height: 2rem;
+    width: 2rem;
+    object-fit: contain;
+}
+
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+
+.sec-arriba{
+    min-height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+article img{
+    height: 60vh;
+    width: 40vh;
+    object-fit: contain;
+}
+
+.marioBros{
+    height: 60vh;
+    width: 40vh;
+    object-fit: cover;
+}
+
+article{
+    height: 70vh;
+    width: 50vh;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 2rem
+}
+
+h3{
+    color: aliceblue;
+}
+
+.sec-abajo{
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+table, tr, th, td{
+    border: 1px solid aliceblue;
+    color: aliceblue;
+}
+
+ol li{
+    margin-left: 1rem;
+}
+
+li{
+    color: aliceblue;
+}
+footer{
+    background-color: blueviolet;
+    color: aliceblue;
+    min-height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.map{
+    height: 7rem;
+    width: 20rem;
+    object-fit: contain;
+}
+
+@media only screen and (min-width:768px) and (max-width: 1024px){
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .map{
+        margin: 0.5rem 0;
+    }
+    .foot-form{
+        margin: 0.5rem 0;
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width: 767px){
+    .sec-arriba{
+        display: flex;
+        flex-direction: column;
+    }
+    .sec-abajo{
+        display: flex;
+        flex-direction: column;
+    }
+    .tabla, .lista{
+        margin-bottom: 1.5rem;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .map{
+        height: 4rem;
+        width: 15rem;
+        margin: 0.5rem 0;
+    }
+    .foot-form{
+        margin: 0.5rem 0;
+    }
+}

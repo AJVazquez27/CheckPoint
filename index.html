@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+<body>
+    <header class="banner">
+        <h1>Cinema central</h1>
+    </header>
+    <main>
+        <nav class="nav-principal">
+            <img class="logo" src="./assets/images/logo.png" alt="logo de pelicula">
+            <a href="#">Inicio</a>
+            <a href="#">Nosotros</a>
+            <a href="#">Combos</a>
+        </nav>
+        <h2>Proximos Estrenos</h2> 
+        <div class="sec-arriba">
+            <article>
+                <h3>El gato con botas</h3>
+                <img src="./assets/images/gato-con-botas.jpg" alt="el gato con botas">
+                <button>Comprar</button>
+            </article>
+            <article>
+                <h3>Super mario bros</h3>
+                <img class="marioBros" src="./assets/images/mario.jpg" alt="mario bros">
+                <button>Comprar</button>
+            </article>
+            <article>
+                <h3>Sonic 2</h3>
+                <img src="./assets/images/sonic.jpg" alt="sonic">
+                <button>Comprar</button>
+            </article>
+        </div>
+        <div class="sec-abajo">
+            <div class="tabla">
+                <table>
+                    <caption>Combos</caption>
+                    <thead>
+                        <tr>
+                            <th>Combo</th>
+                            <th>Incluye</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Pochoclos y chocolates</td>
+                            <td>$5099</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Nachos con cheddar</td>
+                            <td>$2500</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Mate con chipa</td>
+                            <td>$3500</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="lista">
+                <ul>
+                    <li>Promociones
+                        <ol>
+                            <li>Tarjeta visa - 12 cuotas sin interes</li>
+                            <li> Tarjeta Debito - 10% de descuento</li>
+                            <li>Tarjeta Naranja - 3 cuotas sin interes</li>
+                            <li>Efectivo - 10% de descuento</li>
+                        </ol>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.7100261532255!2d-58.519208824770914!3d-34.61149335790798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7d733269ca5%3A0x382f83fa2ef5001a!2sCinema%20Devoto!5e0!3m2!1ses-419!2sar!4v1684764794081!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p>Jazmin Vazquez - Cohort 48</p>
+        <form class="foot-form" action="./assets/pages/show_data.html" method="get">
+            <fieldset>
+                <legend>Para novedades dejanos tu mail</legend>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email-cliente">
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </footer>
+</body>
+</html>
